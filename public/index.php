@@ -40,7 +40,7 @@ $app = AppFactory::create();
 $callableResolver = $app->getCallableResolver();
 
 //Definiendo la subcarpeta de Xampp
-$app->setBasePath('/APICH13006/public');
+//$app->setBasePath('/APICH13006/public');
 
 // Register middleware
 $middleware = require __DIR__ . '/../app/middleware.php';
